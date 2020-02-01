@@ -23,7 +23,7 @@ public class SqMaxTest {
     @Test
     public void whenThirdMax() {
         SqMax check = new SqMax();
-        int result = check.max(7, 8, 11, 6);
+        int result = check.max(6, 8, 11, 6);
         assertThat(result, is(11));
     }
 
@@ -39,5 +39,13 @@ public class SqMaxTest {
         SqMax check = new SqMax();
         int result = check.max(16, 16, 16, 16);
         assertThat(result, is(16));
+
+    }
+
+    @Test
+    public void whenThird1Max() {
+        SqMax check = new SqMax();
+        int result = check.max(6, 4, 8, 5);
+        assertThat(result, is(8));
     }
 }
