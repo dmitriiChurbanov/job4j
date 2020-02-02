@@ -8,8 +8,11 @@ public class CheckPrimeNumber {
                 prime = true;
             } else if ((finish % i) == 0) {
                 break;
+            } else if (!((finish % i) == 0)) {
+                prime = false;
             } else prime = true;
         }
         return prime;
     }
+
 }
