@@ -8,6 +8,7 @@ package ru.job4j.calculator;
  * @since 03.02.2020
  */
 public class Calculator {
+
     public static void add(double first, double second) {
         double result = first + second;
         System.out.println(first + " + " + second + " = " + result);

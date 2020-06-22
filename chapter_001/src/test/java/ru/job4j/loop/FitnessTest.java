@@ -6,6 +6,7 @@ import static org.hamcrest.Matchers.is;
 import static org.junit.Assert.assertThat;
 
 public class FitnessTest {
+
     @Test
     public void whenIvanGreatNik() {
         assertThat(Fitness.calc(95, 90), is(0));

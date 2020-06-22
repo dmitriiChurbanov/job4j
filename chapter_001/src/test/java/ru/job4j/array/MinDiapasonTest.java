@@ -6,6 +6,7 @@ import static org.hamcrest.Matchers.is;
 import static org.junit.Assert.assertThat;
 
 public class MinDiapasonTest {
+
     @Test
     public void whenFirstMin() {
         assertThat(MinDiapason.findMin(new int[]{-1, 0, 5, 10}, 1, 3), is(0));
