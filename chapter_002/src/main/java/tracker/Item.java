@@ -2,18 +2,22 @@ package tracker;
 
 public class Item {
 
+    private int id;
     private String name;
-    private String id;
 
-    public static void main(String[] args) {
+    public int getId() {
+        return id;
     }
 
-    public Item() {
+    public void setId(int id) {
+        this.id = id;
     }
 
-    public Item(String id) {
+    public String getName() {
+        return name;
     }
 
-    public Item(String name, String id) {
+    public void setName(String name) {
+        this.name = name;
     }
 }
